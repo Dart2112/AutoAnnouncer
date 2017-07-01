@@ -1,0 +1,14 @@
+name: AutoAnnouncer
+main: net.lapismc.autoannouncer.Announcer
+version: 1.0
+author: dart2112
+description: Global announcements every few minutes.
+softdepend: [Vault] 
+commands:
+  announcer:
+    description: Manage announcements
+    usage: /<command> help - Help for AutoAnnouncer
+permissions:
+    announcer.admin:
+        description: Allow to use AutoAnnouncer commands
+        default: op
